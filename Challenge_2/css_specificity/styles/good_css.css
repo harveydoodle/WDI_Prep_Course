@@ -1,0 +1,18 @@
+h1 {
+	font-size: 48px;
+}
+ul {
+    color: DarkGrey;
+    font-size: 32px;
+}
+.bold {
+	font-weight: bold;
+}
+.navy-and-crossed {
+	color: Navy;
+	text-decoration: line-through;
+}
+.bold-and-crossed {
+	font-weight: bold;
+	text-decoration: line-through;
+}
