@@ -1,0 +1,56 @@
+body {
+    position: relative;
+}
+
+.row1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+
+.row2 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.clearfix:after {
+   content: "";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.row3a {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    margin: 0px 20px 20px 0px;
+}
+
+.row3b {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 340px;
+    left: 170px;
+    margin: 0px 20px 20px 0px;
+}
+.row3c {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 340px;
+    left: 340px;
+    margin: 0px 20px 20px 0px;
+}
